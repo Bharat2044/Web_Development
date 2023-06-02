@@ -1,0 +1,29 @@
+h2.z {
+    color:purple;
+    background-color: #808080;
+}
+
+/* display: block; */
+span {
+    display: block;
+}
+
+/* display: inline; */
+li {
+    display: inline;  
+}
+
+/* display: inline-block; */
+p.ex {
+    display: inline-block;
+}
+
+/* display: none; */
+h3.none {
+    display: none;
+}
+
+/* display: hidden; */
+h3.hidden {
+    visibility: hidden;
+  }
