@@ -1,0 +1,49 @@
+body {
+    background-color: #808080;
+}
+
+div {
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content: "Welcome to the Demo. This is for all.";
+}
+
+@media (max-width: 300px) {
+    body{
+        background-color: blue;
+    }
+    div::after{
+        content: "Wow its working for max-width: 300px -> Small size device.";
+    }    
+}
+
+/* range based media queries */
+@media (400 <= width <= 768px) {    /* (min-width: 400px) and (max-width:768px)  */
+    body{
+        background-color: purple;
+    }
+    div::after{
+        content: "Wow its working for min-width: 400px and max-width:768px -> Mid size device.";
+    }    
+}
+
+@media (min-width: 900px) {
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content: "Wow its working for min-width: 900px -> Large size device.";
+    }    
+}
+
+@media (min-width: 1200px) {
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: "Wow its working for min-width: 1200px -> Extra large size device.";
+    }
+    
+}
