@@ -1,0 +1,27 @@
+/* Universal Selector */
+* {
+    background-color: #758283;    
+    padding: 0;
+}
+
+/* Element Selector */
+div {
+    border: 2px solid red;
+}
+
+/* Id Selecotr */
+#id1 {
+    color: blue;
+}
+
+/* Class  Selector */
+.cls {
+    color: darkgreen;
+    background-color: aliceblue;
+}
+
+/* Selector List */
+h3, h4 {
+    background-color: azure;
+    color: black;
+}
