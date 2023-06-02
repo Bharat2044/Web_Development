@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    height: 300px;
+    border: 1px solid black;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: column-reverse nowrap; */ 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* gap: 100px; */
+}
+/*flex-flow is shorthand property of flex-direction and flex-wrap*/
+
+.box {
+    height: 100px;
+    width: 100px;
+    /* flex-basis: 200px; */
+}
+.box1 {
+    background-color: red;
+    /* order: 2; */
+    /* flex-grow: 10; */
+}
+
+/* flex is shorthand property of flex-grow, flex-shrink and flex-basis */
+.box2 {
+    background-color: yellow;
+    /* order: 1; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    align-self: flex-start;
+}
+.box3 {
+    background-color: green;
+    /* order: 3; */
+    /* flex-grow: 3; */
+}
