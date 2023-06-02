@@ -1,0 +1,21 @@
+h1.z {
+    color: purple;
+    background-color: #808080;
+}
+
+h2#a {
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+h2#b {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2#c {
+    text-shadow: 0 0 3px #FF0000;
+}
+
+h2#d {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
