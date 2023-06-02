@@ -1,0 +1,78 @@
+h1.z {
+    color: purple;
+    background-color: #808080;
+}
+
+#grad1 {
+    height: 300px;
+    width: 500px;
+    background-image: linear-gradient(red, yellow, green);
+}
+
+#grad2 {
+    height: 200px;
+    background-image: linear-gradient(to right, blue , black);
+}
+
+#grad3 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+#grad11 {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, red, yellow);
+}  
+#grad21 {
+    height: 100px;
+    background-image: linear-gradient(90deg, red, yellow);
+}
+#grad31 {
+    height: 100px;
+    background-image: linear-gradient(180deg, red, yellow);
+}  
+#grad41 {
+    height: 100px;
+    background-image: linear-gradient(-90deg, red, yellow);
+}
+
+#grad12 {
+    height: 200px;
+    background-image: linear-gradient(red, yellow, green);
+}  
+#grad22 {
+    height: 200px;
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}  
+#grad32 {
+    height: 200px;
+    background-image: linear-gradient(red 10%, green 85%, blue 90%);
+}
+
+#grad4 {
+    height: 55px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#grad13 {
+    height: 200px;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}  
+#grad23 {
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg,red,yellow 7%,green 10%);
+}  
+#grad33 {
+    height: 200px;
+    background-image: repeating-linear-gradient(190deg,red,yellow 7%,green 10%);
+}  
+#grad43 {
+    height: 200px;
+    background-image: repeating-linear-gradient(90deg,red,yellow 7%,green 10%);
+}  
+#grad53 {
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg, red 0px, red 10px, red 10px, yellow 10px, yellow 20px);
+}
