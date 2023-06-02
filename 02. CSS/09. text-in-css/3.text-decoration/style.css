@@ -1,0 +1,103 @@
+h2.z {
+    color: purple;
+    background-color: #808080;
+}
+
+/* text-decoration-line */
+a.a{
+    text-decoration-line: none;
+}
+h2.a {
+    text-decoration-line: overline;
+}  
+h3.a {
+    text-decoration-line: line-through;
+}  
+h4.a {
+    text-decoration-line: underline;
+}  
+p.a {
+    text-decoration-line: overline underline;
+}
+
+/* text-decoration-color */
+h2.b {
+    text-decoration-line: overline;
+    text-decoration-color: red;
+}  
+h3.b {
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+}  
+h4.b {
+    text-decoration-line: underline;
+    text-decoration-color: green;  
+}
+p.b {
+    text-decoration-line: overline underline;
+    text-decoration-color: purple;  
+}
+
+/* text-decoration-style */
+h2.c {
+    text-decoration-line: underline;
+    text-decoration-style: solid; /* this is default */
+}
+h3.c {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+h4.c {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;  
+}
+p.ex1 {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;  
+}  
+p.ex2 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;  
+}  
+p.ex3 {
+    text-decoration-line: underline;
+    text-decoration-color: red;  
+    text-decoration-style: wavy;  
+}
+
+/* text-decoration-thickness */
+h2.d {
+    text-decoration-line: underline;
+    text-decoration-thickness: auto;  /* this is default */
+}  
+h3.d {
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}  
+h4.d {
+    text-decoration-line: underline;
+    text-decoration-thickness: 25%;
+}  
+p.d {
+    text-decoration-line: underline;
+    text-decoration-color: red;  
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;  
+}
+
+/* text-decoration (Shorthand Property */
+h2.e {
+  text-decoration: underline;
+}
+h3.e {
+  text-decoration: underline red;
+}
+h4.e {
+  text-decoration: underline red double;
+}
+p.e {
+  text-decoration: underline red double 5px;
+}
+a.e{
+    text-decoration: none;
+}
