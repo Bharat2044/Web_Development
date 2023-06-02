@@ -1,0 +1,63 @@
+h1.z{
+    color:purple;
+    background-color: #808080;
+}
+
+#grad1 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(red, yellow, green);
+}
+
+#grad2 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+
+#grad11 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(red, yellow, green);
+}  
+#grad21 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+
+#grad12 {
+    height: 150px;
+    width: 150px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+#grad22 {
+    height: 150px;
+    width: 150px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+#grad32 {
+    height: 150px;
+    width: 150px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black);
+}  
+#grad42 {
+    height: 150px;
+    width: 150px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black);
+}
+
+#grad5 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
