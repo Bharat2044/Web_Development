@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Audio Example</title>
+    </head>
+    <body>
+        <h1>Audio in HTML</h1>
+        <h2>Audio with no controls</h2>
+        <audio src="./assets/audio.mp3">
+            Your audio is not supported in this browser.
+        </audio>
+        
+        <h2>Audio with controls</h2>
+        <audio src="./assets/audio.mp3" controls>
+            Your audio is not supported in this browser.
+        </audio>
+
+        <h2>Audio with controls and autoplay</h2>
+        <audio src="./assets/audio.mp3" autoplay controls>
+            Your audio is not supported in this browser.
+        </audio>
+
+        <h2>Audio with controls and muted</h2>
+        <audio src="./assets/audio.mp3" controls muted>
+            Your audio is not supported in this browser.
+        </audio>
+
+        <h2>Audio with no controls and autoplay</h2>
+        <audio src="./assets/audio.mp3" autoplay>
+            Your audio is not supported in this browser.
+        </audio>
+
+        <h2>Audio with controls, autoplay and muted</h2>
+        <audio src="./assets/audio.mp3" autoplay controls muted>
+            Your audio is not supported in this browser.
+        </audio>
+
+        <h2>Audio with controls</h2>
+        <audio src="https://samplelib.com/lib/preview/mp3/sample-9s.mp3" controls>
+            Your audio is not supported in this browser.
+        </audio>
+<audio src=""></audio>
+        <br>
+        <h2>Audio using multiple source</h2>
+        <audio controls>
+            <source src="./assets/audio.mp3" type="audio/mp3" />
+            <source src="./assets/audio.mp3" type="audio/mp3" />
+            Your audio is not supported in this browser.
+        </audio>
+</body>
+</html>
