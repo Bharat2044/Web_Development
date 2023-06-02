@@ -1,0 +1,34 @@
+h2.z {
+    color: purple;
+    background-color: #808080;
+}
+
+/* left float */
+img#left {
+    float: left;
+}
+
+/* right float */
+img#right {
+    float: right;
+}
+
+/* none float */
+img#right {
+    float: none;
+}
+
+/* Next To Each Other float */
+div {
+    float: left;
+    padding: 50px; 
+}  
+.div1 {
+background: red;
+}  
+.div2 {
+    background: yellow;
+}  
+.div3 {
+    background: green;
+}
