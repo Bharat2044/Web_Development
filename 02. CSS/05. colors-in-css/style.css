@@ -1,0 +1,23 @@
+#a {
+    color: red;
+}
+
+#b {
+    color: #230cf0;
+}
+
+#c {
+    color: rgb(0, 165, 0)
+}
+
+#d {
+    color:rgb(255, 71, 203)
+}
+
+#e {
+    color: hsl(0, 20%, 50%);
+}
+
+#f {
+    color: hsla(195, 56%, 47%, 1)
+}
