@@ -1,0 +1,51 @@
+h2.z {
+    color: purple;
+    background-color: #808080;
+}
+
+/* overflow: visible; */
+div#visible {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+}
+
+/* overflow: hidden; */
+div#hidden {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+/* overflow: scroll; */
+div#scroll {
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+/* overflow: auto; */
+div#auto {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+/* overflow-x: hidden;
+overflow-y: scroll; */
+div#xy {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
