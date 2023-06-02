@@ -1,0 +1,38 @@
+h1.z {
+    color: purple;
+    background-color: #808080;
+}
+
+/* letter-spacing */
+h2.a {
+    letter-spacing: 5px;
+}  
+h3.a {
+    letter-spacing: -2px;
+}
+
+/* word-spacing */
+p.one {
+    word-spacing: 10px;
+}
+p.two {
+    word-spacing: -2px;
+}
+
+/* line-height */
+p.small {
+    line-height: 0.7;
+}
+p.big {
+    line-height: 1.8;
+}
+
+/* text-indent */
+p.d {
+    text-indent: 50px;
+}
+
+/* white-space */
+p.e {
+    white-space: nowrap;
+}
