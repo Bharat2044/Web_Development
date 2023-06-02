@@ -1,0 +1,23 @@
+p.normal {
+    font-weight: normal;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.bolder {
+    font-weight:bolder;
+}
+
+p.light {
+    font-weight: lighter;
+}
+  
+p.thick {
+    font-weight: 100;
+}
+  
+p.value {
+    font-weight: 900;
+}
