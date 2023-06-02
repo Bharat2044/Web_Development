@@ -1,0 +1,52 @@
+div#a {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
+
+div#b {
+    border: 1px solid black;
+    margin: 25px 50px 75px 100px;
+    background-color: #808000;
+}
+
+div#c {
+    border: 1px solid black;
+    margin: 25px 50px 75px;
+    background-color: green;
+}
+
+div#d {
+    border: 1px solid black;
+    margin: 25px 50px;
+    background-color: #909090;
+}
+  
+div#e {
+    border: 1px solid black;
+    margin: 50px;
+    background-color: lightblue;
+}
+
+div#f {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+div#g {
+    border: 1px solid blue;
+    margin-left: 100px;
+}  
+p.ex1 {
+    margin-left: inherit;
+}
+  
+  
+  
+  
+  
+  
