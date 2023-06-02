@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>z-index Example</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>z-index in CSS</h1>
+        
+        <h1 class="z">1. Overlapping elements</h1>
+        <p>An element with greater stack order is always above an element with a lower stack order.</p>
+        <div class="container">
+            <div class="black-box">Black box (z-index: 1)</div>
+            <div class="gray-box">Gray box (z-index: 3)</div>
+            <div class="green-box">Green box (z-index: 2)</div>
+        </div>
+
+        <h1 class="z">2. Without Overlapping elements</h1>
+        <p>If two positioned elements overlap each other without a z-index specified,
+        the element defined last in the HTML code will be shown on top:</p>
+        <div class="container1">
+            <div class="black-box1">Black box</div>
+            <div class="gray-box1">Gray box</div>
+            <div class="green-box1">Green box</div>
+        </div>
+    </body>
+</html>
