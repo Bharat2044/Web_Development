@@ -1,0 +1,26 @@
+h2 {
+    background-color: #8080803c;
+    color: purple;
+    text-align: center;
+}
+
+section {
+    border: 2px solid red;
+    width: 50vw;
+    height: 50vh;
+    font-size: 50px;
+}
+
+main {
+    border: 2px dotted black;
+}
+
+.absolute {
+    width: 400px;
+    font-size: 50px;
+}
+
+.relative {
+    width: 50%;
+    font-size: 2rem;
+}
