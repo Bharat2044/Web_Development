@@ -1,0 +1,9 @@
+#parent {
+    width: 500px;
+    border: 2px solid blue;  
+}
+  
+#child {
+    width: 50%;
+    border: 2px solid red;  
+}
