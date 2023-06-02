@@ -1,0 +1,53 @@
+div#a {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-color: burlywood;
+    border: 2px solid red;
+}
+
+div#b {
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: lightblue;
+}
+
+div#c {
+    border: 1px solid black;
+    padding: 25px 50px 75px;
+    background-color: #808080;
+}
+
+div#d {
+    border: 1px solid red;
+    padding: 25px 50px;
+    background-color: #83df7c;
+}
+
+div#e {
+    border: 1px solid black;
+    padding: 25px;
+    background-color: #dc71d3cd;
+}
+
+div.ex1 {
+    width: 300px;
+    background-color: yellow;
+}  
+div.ex2 {
+    width: 300px;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+div.ex3 {
+    width: 300px;
+    background-color: red;
+}  
+div.ex4 {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
