@@ -1,0 +1,76 @@
+h1.z{
+    color: purple;
+    background-color: #808080;
+}
+
+div#a {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}  
+div#a:hover {
+    width: 300px;
+}
+  
+div#b {
+    width: 100px;
+    height: 100px;
+    background: black;
+    transition: width 2s, height 4s;
+}  
+div#b:hover {
+    width: 300px;
+    height: 300px;
+}
+
+div.c {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    transition: width 2s;
+}  
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}  
+div.c:hover {
+    width: 300px;
+}
+
+div#d {
+    width: 100px;
+    height: 100px;
+    background: darkgreen;
+    transition: width 3s;
+    transition-delay: 1s;
+}  
+div#d:hover {
+    width: 300px;
+}
+  
+div#e {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+}  
+div#e:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+  
+div#f {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}  
+div#f:hover {
+    width: 300px;
+}
