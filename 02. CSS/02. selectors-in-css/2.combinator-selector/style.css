@@ -1,0 +1,23 @@
+/* Descendent Selector */
+.descendent p {
+    color: blue;
+    background-color: orange;
+}
+
+/* Child Selector */
+.child > p{
+    color: white;
+    background-color: black;
+}
+
+/* Adjancent Sibling Selector */
+.adjancent-sibling + p {
+    color: greenyellow;
+    background-color: rgb(44, 179, 51);
+}
+
+/* General Sibling Selector */
+.general-sibling ~ p {
+    color: pink;
+    background-color: darkorchid;
+}
