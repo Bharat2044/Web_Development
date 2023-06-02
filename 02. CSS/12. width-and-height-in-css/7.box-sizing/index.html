@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Box Sizing Example</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>CSS box-sizing Property</h1>
+
+        <p>Defines how the width and height of an element are calculated: should they include padding and borders, or not.</p>
+
+        <h2>box-sizing: content-box (default):</h2>
+        <p>Width and height only apply to the content of the element:</p>
+        <div id="example1">This div has a width of 300px. But the full width is 300px + 20px (left and right border) + 60px (left and right padding) = 380px!</div>
+
+        <h2>box-sizing: border-box:</h2>
+        <p>Width and height apply to all parts of the element: content, padding and borders:</p>
+        <div id="example2">Here, the full width is 300px, no matter what!</div>
+    </body>
+</html>
