@@ -1,0 +1,20 @@
+h1.z {
+    color: purple;
+    background-color: #808080;
+}
+
+p.none {
+    text-transform: none;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+  
+p.lowercase {
+    text-transform: lowercase;
+}
+  
+p.capitalize {
+    text-transform: capitalize;
+}
