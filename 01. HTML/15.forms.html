@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Form Example</title>
+    </head>
+    <body>
+        <h1>Forms in HTML</h1>
+        <form action="thankyou.html" method="get" target="_blank">
+            <fieldset>
+                <legend>Student Registration!!</legend>
+                <label for="user_name">Enter Your Name: </label><br>
+                <input type="text" id="user_name" placeholder="Bharat Kumar" name="username" autofocus required>
+                <br><br>
+
+                <label for="user_email">Enter Your Email: </label><br>
+                <input type="email" id="user_email" placeholder="bharatkumar2001@gmail.com" name="useremail" required size="25"  minlength="15" minlength="25">
+                <br><br>
+
+                <label for="user_phone">Enter Your Phone Number: </label><br>
+                <input type="number" id="user_phone" placeholder="6283843998" name="userephone" required size="15" minlength="10" minlength="12">
+                <br><br>
+
+                <label for="user_password">Enter Your Password: </label><br>
+                <input type="password" id="user_password" name="userpassword" required>
+                <br><br>
+
+                <label for="user_conform_password">Conform Your Password: </label><br>
+                <input type="password" id="user_conform_password" name="userconformpassword" required>
+                <br><br>
+
+                <label for="user_age">Enter Your Age: </label><br>
+                <input type="number" id="user_age" name="userage" min="15" max="65" required>
+                <br><br>
+
+                <label for="user_date_of_birth">Enter Your Date-of-birth: </label><br>
+                <input type="date" id="user_date_of_birth" name="userdob" required>
+                <br><br>
+
+                <label for="user_file">Upload Your Image and File: </label><br>
+                <input type="file" id="user_file" name="userfile" multiple required>
+                <br><br>
+
+                <label for="user_country">Enter Your Country: </label><br>
+                <input type="text" name="usercountry" id="user_country" value="India" readonly>
+                <br><br>
+
+                <label for="user_state">Enter Your State: </label><br>
+                <input type="text" name="userstate" id="user_state" value="MP" disabled>
+                <br><br>
+
+                <label for="user_address">Enter Your Address: </label><br>
+                <textarea id="user_address" cols="50" rows="5" name="useraddress" required>Write your Address from here...</textarea>
+                <br><br>
+
+                <label for="user_gender">Select Your Gender: </label><br>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="user_gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="user_gender" value="female">
+                <label for="transgender">Transgender</label>
+                <input type="radio" id="transgender" name="user_gender" value="transgender">
+                <br><br>
+
+                <label for="subject">Choose Your Favourite Subject: </label><br>
+                <label for="math">Math</label>
+                <input type="checkbox" id="math" name="math" value="math">
+                <label for="physics">Physics</label>
+                <input type="checkbox" id="physics" name="physics" value="physics">
+                <label for="chemistry">Chemistry</label>
+                <input type="checkbox" id="chemistry" name="chemistry" value="chemistry">
+                <label for="biology">Biology</label>
+                <input type="checkbox" id="biology" name="biology" value="biology">
+                <label for="computer">Computer</label>
+                <input type="checkbox" id="computer" name="computer" value="computer">
+                <br><br>
+
+                <label for="college_name">Select Your College:</label>
+                <select id="college_name" name="collegename">
+                    <optgroup label="Tier-1 College">
+                        <option value="manit">MANIT Bhopal</option>
+                        <option value="lnct">LNCT Bhopal</option>
+                        <option value="oriental">Oriental Bhopal</option>                        
+                    </optgroup>
+                    <optgroup label="Tier-2 College">
+                        <option value="iiit">IIIT Bhopal</option>
+                        <option value="tit">TIT Bhopal</option>
+                        <option value="sirt">SIRT Bhopal</option>
+                    </optgroup>
+                    <optgroup label="Tier-3 College">
+                        <option value="tieit">TIEIT Bhopal</option>
+                        <option value="tcst">TCST Bhopal</option>
+                        <option value="IES">IES Bhopal</option>
+                    </optgroup>  
+                </select>
+                <br><br>
+
+                <label for="user_feedback">Please Enter Your Feedback: </label><br>
+                <textarea id="user_feedback" cols="50" rows="8" name="useraddress"></textarea>
+                <br><br>
+
+                <input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </body>
+</html>
