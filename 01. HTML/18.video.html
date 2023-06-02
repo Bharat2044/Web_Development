@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Videoes Example</title>
+    </head>
+    <body>
+        <h1>Video in HTML</h1>
+        <h2>Video with no controls</h2>
+        <video src="./assets/video.mp4" height="400" width="600">
+            Your video is not supported in this browser.
+        </video>
+        
+        <h2>Video with controls</h2>
+        <video src="./assets/video.mp4" controls height="400" width="600">
+            Your video is not supported in this browser.
+        </video>
+        
+        <h2>Video with controls and muted</h2>
+        <video src="./assets/video.mp4" controls muted height="400" width="600">
+            Your video is not supported in this browser.
+        </video>
+
+        <h2>Video with controls and autoplay</h2>
+        <video src="./assets/video.mp4" autoplay controls height="400" width="600">
+            Your video is not supported in this browser.
+        </video>
+
+        <h2>Video with no controls and autoplay</h2>
+        <video src="./assets/video.mp4" autoplay height="400" width="600">
+            Your video is not supported in this browser.
+        </video>
+
+        <h2>Video with controls, autoplay and muted</h2>
+        <video src="./assets/video.mp4" autoplay controls muted height="400" width="600">
+            Your video is not supported in this browser.
+        </video>
+
+        <h2>Video with controls</h2>
+        <video src="https://player.vimeo.com/external/334344435.sd.mp4?s=d367341a941ffa97781ade70e4f4a28f4a1a5fc8&profile_id=164&oauth2_token_id=57447761" controls height="400" width="600">
+            Your video is not supported in this browser.
+        </video>
+
+        <br>
+        <h2>Video using multiple source</h2>
+        <video controls height="400" width="600">
+            <source src="./assets/video.mp4" type="video/mp4" />
+            <source src="./assets/video.mp4" type="video/mp4" />
+            Your video is not supported in this browser.
+        </video>
+</body>
+</html>
