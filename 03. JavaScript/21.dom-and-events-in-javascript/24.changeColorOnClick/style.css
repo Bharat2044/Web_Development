@@ -1,0 +1,20 @@
+body {
+  background-color: #fff; /* Set initial background color */
+}
+
+div{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 25px;
+  border-radius: 15px;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
