@@ -1,0 +1,28 @@
+/* div {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+body{
+    background-color: #000;
+    height: 100vh;
+    margin-top: 45vh;
+    text-align: center;
+}
+
+h1 {
+    color: crimson;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 15px;
+    font-weight: 600;
+    background-color: #1385db;
+    color: yellow;
+}
