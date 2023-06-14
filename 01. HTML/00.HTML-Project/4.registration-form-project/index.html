@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form Project</title>
+    </head>
+    <body>
+        <h3>Registration Form</h3>
+
+        <form>
+            <div>
+                <label for="fname">Frist Name: </label>
+                <input type="text" name="fname" id="fname" placeholder="Enter first name" />
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname" id="lname" placeholder="Enter last name" />
+           </div><br />
+
+           <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter email">
+            </div><br />
+
+            <div>
+                <label for="pass">Email</label>
+                <input type="password" name="pass" id="pass" placeholder="Enter password">
+            </div><br />
+
+            <div>
+                <label for="phone">Phone</label>
+                <input type="phone" name="phone" id="phone" placeholder="Enter phone number">
+            </div><br />
+
+            <div>
+                <label for="gender">Genger</label>
+                <input type="radio" name="gender" id="male" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female" />
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="trans" value="trans" />
+                <label for="trans">Transgenger</label>
+            </div><br />
+
+            <div>
+                Select Courses:                
+                <input type="checkbox" name="html" id="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" name="css" id="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="js" id="js" checked>
+                <label for="js">JavaScript</label>
+                <input type="checkbox" name="react" id="react">
+                <label for="react">React</label>
+            </div><br />
+
+            <div>
+                Do you agree to all terms of service?
+                <input type="checkbox" name="tos_agree" id="yes">
+                <label for="yes">Yes</label>
+            </div><br />
+
+            <div>     
+                Select Payment Method:            
+                <select name="paymethod" id="payment">
+                    <option value="ccard">Credit Card</option>
+                    <option value="dcard">Debit Card</option>
+                    <option value="paytm">Paytm</option>
+                    <option value="ppay">Phone Pay</option>
+                    <option value="gpay">Google Pay</option>
+                </select>
+            </div><br />
+
+            <div>
+                <label for="rating">Plese provide Rating: </label>
+                <input type="range" name="rating" id="rating" min="0" max="10" />
+            </div><br />
+
+            <div>
+                <label for="feedback">Please Enter Your Feedback: </label><br />
+                <textarea name="feedback" id="feedback" cols="30" rows="5"></textarea>
+            </div> <br />
+
+            <button type="submit">Register</button>
+        </form>
+    </body>
+</html>
