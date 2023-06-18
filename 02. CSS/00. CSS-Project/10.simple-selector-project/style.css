@@ -1,0 +1,118 @@
+/* !important */
+h3 {
+    background-color: #728772 !important;
+}
+
+/* universal selector */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* element selector */
+h3 {
+    color: #800080;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+/* id selector */
+#login {
+    background-color: #fff;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: #fff;
+}
+
+/* class selector */
+.upvote {
+    background-color: #1c4d1c;
+    color: aliceblue;
+}
+
+/* descendant selector */
+.post a {
+    color: #800080;
+    background-color: #ffff00;
+}
+
+nav ul li a {       /* nav a */
+    color: hotpink;
+}
+
+/* adjancent sibling combinaor */
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: rgb(107, 149, 232);
+    color: rgb(7, 7, 244);
+}
+
+/* child combinator */
+div > input {
+    background-color: rgb(217, 149, 127);
+}
+
+/* input selector */
+input[type="text"] {
+    color: green;
+}
+
+input[type="password"] {
+    color: red;
+}
+
+input[type] {
+    background-color: ghostwhite;
+}
+
+/* pseudo-class sellector */
+button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+h3:hover {
+    text-decoration: overline
+}
+
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2) {
+    background-color: blanchedalmond;
+}
+
+/* pseudo-class sellector */
+h1::first-letter {
+    color: #000;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::selection {
+    background-color: rgb(190, 207, 35);
+}
+
+h3 {
+    background-color: rgb(110, 110, 209);
+}
