@@ -1,0 +1,14 @@
+img {
+    width: 350px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+}
