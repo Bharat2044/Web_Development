@@ -17,7 +17,7 @@ console.log(a / b);
 console.log(a % b);
 
 // 6. Exponentiation Operator (**)
-console.log(a ** b);// 7. Pre Increment
+console.log(a ** b);
 
 // 7. Pre Increment Operator (++x)
 let c = 5;
