@@ -129,7 +129,7 @@ console.log(arr14.includes(2));
 console.log(arr14.includes(9));
 console.log('\n');
 
-//13. indexOf() method
+//13. at() method
 console.log('13. at() method');
 let arr15 = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 console.log(arr15.at(4));
