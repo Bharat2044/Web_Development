@@ -71,7 +71,7 @@ student.greet();
 ## 7. Configure TypeScript (Optional):
 You can create a `tsconfig.json` file to configure TypeScript options. This file can include settings such as the target ECMAScript version, module system, and other compiler options. 
 Here's a basic example:
-```json
+```typescript
 // tsconfig.json
 {
   "compilerOptions": {
