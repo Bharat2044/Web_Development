@@ -8,4 +8,4 @@
 
 # [03. JavaScript](./03.%20JavaScript/)
 
-# [03. JavaScript](./04.%20TypeScript/)
+# [04. TypeScript](./04.%20TypeScript/)
