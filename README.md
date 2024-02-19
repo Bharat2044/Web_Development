@@ -7,3 +7,5 @@
 # [02. CSS](./02.%20CSS/)
 
 # [03. JavaScript](./03.%20JavaScript/)
+
+# [04. TypeScript](./04.%20TypeScript/)
